@@ -10,7 +10,7 @@ A flight stack is a combination of a flight controller (FC) and an electronic sp
 
 The flight controller is the “brain” of the FPV drone. It processes sensor data, especially gyro data, and runs flight-control algorithms to determine how the motors should respond. The ESC receives these control signals and regulates motor speed accordingly.
 
-![FPV flight stack FC and ESC](./images/flight-stack-fc-esc.png)
+![FPV flight stack FC and ESC](flight-stack-fc-esc.png)
 
 In the past, flight controllers and ESCs were often purchased separately. Today, many manufacturers offer matched FC-and-ESC stack kits, which can simplify compatibility, wiring, installation, and after-sales support.
 
@@ -21,7 +21,7 @@ A flight stack generally consists of:
 
 A video transmitter (VTX) is normally a separate component. Depending on the frame and build, it may be mounted alongside or above the flight stack.
 
-![MPU-series gyroscope and integrated HD VTX](./images/mpu-series-gyro-vtx.png)
+![MPU-series gyroscope and integrated HD VTX](mpu-series-gyro-vtx.png)
 
 Another option is an AIO (All-in-One) board, which integrates the flight controller and ESC into a single board. AIO boards are commonly used on smaller and lighter drones, such as 2–3-inch builds, while separate FC-and-ESC stacks are more common on larger 4-inch and 5-inch drones.
 
@@ -47,7 +47,7 @@ You do not need to choose an H7 simply because it has the highest specifications
 
 ### 2.2 ESC Current Rating: How Many Amps Are Enough?### 2.2 ESC Current Rating: How Many Amps Are Enough?
 
-![ESC adjustable PWM frequency](./images/esc-pwm-frequency.png)
+![ESC adjustable PWM frequency](esc-pwm-frequency.png)
 
 The ESC current rating generally refers to the amount of current an ESC can handle for each motor channel under its specified operating conditions.
 
@@ -107,7 +107,7 @@ The ICM-42688-P is currently a popular choice for new flight-controller designs.
 
 Some flight controllers also include Bluetooth or Wi-Fi connectivity for configuration and tuning. These features can allow pilots to make certain adjustments using a smartphone instead of connecting the drone to a computer, which can be particularly convenient for beginners.
 
-![Third-generation BEC module](./images/bec-module-noise.png)
+![Third-generation BEC module](bec-module-noise.png)
 
 ## 3. Key Buying Principles for Beginners
 
